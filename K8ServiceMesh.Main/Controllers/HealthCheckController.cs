@@ -1,7 +1,7 @@
-using K8ServiceMash.Service;
+using K8ServiceMesh.Service;
 using Microsoft.AspNetCore.Mvc;
 
-namespace K8ServiceMash.Main.Controllers;
+namespace K8ServiceMesh.Main.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\K8ServiceMash.Core\K8ServiceMash.Core.csproj" />
+    <ProjectReference Include="..\K8ServiceMesh.Core\K8ServiceMesh.Core.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

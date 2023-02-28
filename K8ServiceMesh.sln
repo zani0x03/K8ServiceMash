@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K8ServiceMash.Main", "K8ServiceMash.Main\K8ServiceMash.Main.csproj", "{1757E0E8-DFEB-49B9-A31C-B720016EC97A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K8ServiceMesh.Main", "K8ServiceMesh.Main\K8ServiceMesh.Main.csproj", "{1757E0E8-DFEB-49B9-A31C-B720016EC97A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K8ServiceMash.Core", "K8ServiceMash.Core\K8ServiceMash.Core.csproj", "{2DD8C373-C108-4074-809D-6BB7165BD8F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K8ServiceMesh.Core", "K8ServiceMesh.Core\K8ServiceMesh.Core.csproj", "{2DD8C373-C108-4074-809D-6BB7165BD8F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

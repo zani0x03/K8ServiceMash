@@ -1,6 +1,6 @@
-﻿using K8ServiceMash.Core;
+﻿using K8ServiceMesh.Core;
 
-namespace K8ServiceMash.Service;
+namespace K8ServiceMesh.Service;
 public class PodInfoService:IPodInfoService
 {
     public PodInfo GetPodInfo(){

@@ -7,13 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AspNetCoreRateLimit" Version="5.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\K8ServiceMash.Core\K8ServiceMash.Core.csproj" />
-    <ProjectReference Include="..\K8ServiceMash.Service\K8ServiceMash.Service.csproj" />
+    <ProjectReference Include="..\K8ServiceMesh.Core\K8ServiceMesh.Core.csproj" />
+    <ProjectReference Include="..\K8ServiceMesh.Service\K8ServiceMesh.Service.csproj" />
   </ItemGroup>
 
 </Project>

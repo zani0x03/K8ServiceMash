@@ -1,4 +1,4 @@
-﻿namespace K8ServiceMash.Core;
+﻿namespace K8ServiceMesh.Core;
 public class PodInfo
 {
     public string Name { get; set; }
