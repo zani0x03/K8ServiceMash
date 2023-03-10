@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K8ServiceMesh.Main", "K8Ser
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K8ServiceMesh.Core", "K8ServiceMesh.Core\K8ServiceMesh.Core.csproj", "{2DD8C373-C108-4074-809D-6BB7165BD8F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K8ServiceMesh.Tests", "K8ServiceMesh.Tests\K8ServiceMesh.Tests.csproj", "{C740134F-97D7-4D1A-A759-29712FF94680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K8ServiceMesh.Utils", "K8ServiceMesh.Utils\K8ServiceMesh.Utils.csproj", "{CAC04F3E-25D9-4A0D-B2DF-AA8950286D4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "K8ServiceMesh.Service", "K8ServiceMesh.Service\K8ServiceMesh.Service.csproj", "{335DB811-823A-4DB0-A38D-54318B1BCBB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{2DD8C373-C108-4074-809D-6BB7165BD8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DD8C373-C108-4074-809D-6BB7165BD8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DD8C373-C108-4074-809D-6BB7165BD8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C740134F-97D7-4D1A-A759-29712FF94680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C740134F-97D7-4D1A-A759-29712FF94680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C740134F-97D7-4D1A-A759-29712FF94680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C740134F-97D7-4D1A-A759-29712FF94680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC04F3E-25D9-4A0D-B2DF-AA8950286D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC04F3E-25D9-4A0D-B2DF-AA8950286D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC04F3E-25D9-4A0D-B2DF-AA8950286D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC04F3E-25D9-4A0D-B2DF-AA8950286D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335DB811-823A-4DB0-A38D-54318B1BCBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335DB811-823A-4DB0-A38D-54318B1BCBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335DB811-823A-4DB0-A38D-54318B1BCBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335DB811-823A-4DB0-A38D-54318B1BCBB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
