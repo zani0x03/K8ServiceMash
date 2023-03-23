@@ -13,38 +13,45 @@ public class UUtilsPassword
     }
 
     [Fact]
-    public void PasswordCorreto()
+    public void PasswordRight()
     {
         var password = "z2*6Uyb;si:$";
-        Assert.True(_password.IsPasswordValid(password));
+        Assert.True(_password.IsValidPassword(password));
     }
 
 
     [Fact]
-    public void PasswordIncorretoTamanho()
+    public void PasswordLengthIncorrect()
     {
         var password = "z2*6Uyb;si:";
-        Assert.False(_password.IsPasswordValid(password));
+        Assert.False(_password.IsValidPassword(password));
     }
 
     [Fact]
-    public void PasswordSemMaiusculo()
+    public void PasswordWithoutUpperCase()
     {
         var password = "z2*6uyb;si:$";
-        Assert.False(_password.IsPasswordValid(password));
+        Assert.False(_password.IsValidPassword(password));
     }
 
     [Fact]
-    public void PasswordSemMinusculo()
+    public void PasswordWithoutLowerCase()
     {
         var password = "Z2*6UYB;SI:$";
-        Assert.False(_password.IsPasswordValid(password));
+        Assert.False(_password.IsValidPassword(password));
     }
 
     [Fact]
-    public void PasswordSemCaracterEspecial()
+    public void PasswordWithoutDigits()
+    {
+        var password = "z&*sUyb;si:$";
+        Assert.False(_password.IsValidPassword(password));
+    }    
+
+    [Fact]
+    public void PasswordWithoutSpecialCharacters()
     {
         var password = "z2i6UybksidE";
-        Assert.False(_password.IsPasswordValid(password));
+        Assert.False(_password.IsValidPassword(password));
     }
 }

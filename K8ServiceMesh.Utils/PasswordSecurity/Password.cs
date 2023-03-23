@@ -10,7 +10,7 @@ public class Password : IPassword
 
     }
 
-    public bool IsPasswordValid(string password)
+    public bool IsValidPassword(string password)
     {
         bool isPasswordValid = true;
         
